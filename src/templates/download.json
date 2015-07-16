@@ -14,18 +14,6 @@
                         "alt": "Login"
                     },
                     "title": "Login"
-                },
-                "item2": {
-                    "div": {
-                        "id": "home-content-sync",
-                        "class": "ui-block-e sync-show sync-button"
-                    },
-                    "a": {"href": "#"},
-                    "img": {
-                        "src": "plugins/sync/css/images/sync-large.png",
-                        "alt": "Sync Records and Editors"
-                    },
-                    "title": "Sync"
                 }
             }
         },
@@ -59,7 +47,21 @@
                         "src": "plugins/sync/css/images/download-editors.png",
                         "alt": "Download Editors"
                     },
-                    "title": "Controlled Surveys"
+                    "title": "Registered Surveys"
+                },
+                "item3": {
+                    "div": {
+                        "class": "ui-block-c sync-download-layers-button"
+                    },
+                    "a": {
+                        "class": "annotate-text-form",
+                        "href": "saved-layers.html"
+                    },
+                    "img": {
+                        "src": "plugins/overlays/css/images/maplayers.png",
+                        "alt": "Download Layers"
+                    },
+                    "title": "Download Layers"
                 }
             }
         },
